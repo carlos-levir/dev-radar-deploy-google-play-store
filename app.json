@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Dev Radar",
+    "slug": "DevRadar",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7159c1"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "package": "com.rocketseat.devradar",
+      "adaptiveIcon": {
+        "backgroundColor": "#7159c1",
+        "foregroundImage": "./assets/icon.png"
+      }
+    }
+  }
+}
